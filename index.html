@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal a binario</title>
+    <style>
+        *{
+            border:0;
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body{
+            display:flex;
+            flex-direction:column;
+            justify-content: space-between;
+        }
+        header{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: aquamarine;
+        }
+        ul li {
+            list-style: none;
+    
+        }
+        h1:hover{
+            color:blueviolet
+        }    
+        
+        .title{
+            text-align:center;
+            margin-top: 10px;
+            
+        }
+    
+        main input {
+            margin-top:100px;
+            border: 1px solid black;
+        }
+
+        main button {
+            border-radius: 10px;
+            width: 100px;
+            height: 30px;
+
+        }
+
+        button:hover{
+            background-color:aquamarine;
+            transition: .2s;
+        }
+        
+        .res{
+            font-size: 50px; 
+            margin-top: 50px;  
+        }
+        img{
+            width: 20px;
+        }
+        footer{
+            text-align: center;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1>
+        <ul>
+            <li>Home</li>
+        </ul>
+    </header>
+    <main class="title">
+        <h1>CONVERSOR DE DECIMAL A BINARIO</h1>
+        <div class="content">
+            <input type="text" name="" id="input" placeholder="Numero">
+            <button onclick="getInput()">Convertir</button>
+
+        </div>
+        <div id="result">
+            
+        </div>
+        
+
+
+    </main>
+    <footer>
+       <p> Made by <img src="https://img.icons8.com/bubbles/50/000000/github.png"/>kev-aron-28 with ❤</p>
+    </footer>
+</body>
+
+<script src="index.js"></script>
+</html>
