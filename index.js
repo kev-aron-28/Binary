@@ -34,7 +34,7 @@ class Binary {
         this.writeResult.innerHTML = `<p class="res">Resultado : <pclass="res"> ${this.res} </pclass=></p>`
         setTimeout(() => {
             this.writeResult.innerHTML = ''
-        }, 2000);
+        }, 3000);
     }
 }
 
